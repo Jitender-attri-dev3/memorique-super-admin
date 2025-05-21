@@ -5,13 +5,14 @@
 /* Define the Roboto font in the theme */
 @theme {
   --font-roboto: "Roboto", sans-serif;
-  --border: #ccc;
+  --border: #eaeaea;
 }
 
 @layer base {
     html {
     font-family: "Roboto", sans-serif;
-    font-size: 14px
+    font-size: 14px;
+    background-color: #f8f8f8;
   }
   [class*="border"] {
     border-color: var(--border);
